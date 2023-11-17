@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navsec{
+    background-color: #1A187A;
+}
+.navsecond{
+    display: flex;
+    color: white;
+    list-style: none;
+    list-style: none;
+    gap: 20px;
+}
+/* nav section end */
+.naverlogo{
+width: 45px;
+}
+
+.frontpage{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    /* background-color: burlywood; */
+}
+/* .frontimg {
+    width: 100%;
+    margin: auto;
+   
+} */
+
+
+.banner-front{
+    font-size: 80px;
+}
+
+
+/* .colla{
+    gap: 200px;
+} */
+
+.collaitem{
+    padding-top: 220px;
+}
+.collaimg{
+    padding-top: 100px;
+    padding-left: 150px;
+}
+/* header section end */
+.store{
+    /* margin-top: 150px; */
+    margin: 0;
+    /* padding-left: 150px; */
+    background-color: cornsilk;
+}
+.storeimg{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+/* .storeimggg{
+    width: 200px;
+    height: 250px;
+    padding-top: 4px;
+    padding-left: 15px;
+} */
+/* .storeimgg{
+    width: 300px;
+    height: 300px;
+    padding-top: 110px;
+} */
+.storecon{
+    color: #010000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+
+.storefcon{
+    background-color: aliceblue;
+}
+.storeseccon{
+/* background-color: rgb(220, 227, 243); */
+background-color: aliceblue;
+}
+.storethrcon{
+background-color: chocolate;
+padding-top: 97px;
+}
+/* store section end */
+.wholearea{
+    padding: 50px 90px;
+}
+.mainarea{
+    display: flex;
+    gap: 30px;
+    /*  */
+}
+.area{
+    display: flex;
+width: 160px;
+height: 128px;
+min-width: 135px;
+padding: 24px 52px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 15px;
+background: #EDEDED;
+}
+.areacont{
+    color: var(--main-black, #000);
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+} 
+/* catagoris end */
+
+
+.product{
+    margin: 60px;
+}
+
+.productbar{
+    display: flex;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+list-style: none;
+}
+
+.productcont{
+    padding-top: 30px;
+    gap: 16px;
+}
+.picon{
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+}
+
+.rect{
+    background-color: #958AD4;
+    width: auto;
+    margin-top: 60px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.mainrectan{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+    gap: 230px;
+}
+.rectimg1{
+ width: 20%;
+ height: 80%;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+}
+.rectcont{
+padding-top: 50px;
+margin: auto;
+}
+.rectimg2{
+    width: 15%;
+    height: 60;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+/* rectangular end */
+
+.footer{
+ color: #EDEDED;
+}
+.footercont{
+    padding: 100px;
+    /* display: flex;
+    gap: 70px; */
+    display: flex;
+/* justify-content: space-between; */
+justify-content: center;
+align-content: flex-start;
+/* row-gap: 113px; */
+align-self: stretch;
+flex-wrap: wrap;
+gap: 90px;
+}
+.footimg{
+    width: 250px;
+    height: 50px;
+}
+.footericon{
+    display: flex;
+    /* width: 50px;
+    height: 40px; */
+    gap: 2px;
+    flex-shrink: 0;
+}
+.footerdes{
+    display: flex;
+width: 623px;
+justify-content: space-between;
+align-items: flex-start;
+}
+.divbor{
+    border: 2px solid red;
+    align-self: stretch;
+}
+@media only screen and (max-width: 426px){
+.footer{
+    width: 300%;
+    display: block;
+}
+
+}
+
+
+
+/* responsive part  */
+
+@media only screen and (max-width: 426px){
+
+    /* navbar */
+    .navsec{
+        background-color: #2a2a45;
+        width: 200%;
+        height: 200%;
+    }
+
+
+
+    .banner-front{
+        font-size: 30px;
+    }
+
+
+
+
+
+    /* .naverlogo.w-25{
+        width: 50%  !important;
+    } */
+
+    /* frontpage */
+    /* .frontpage{
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+        background-color: burlywood;
+        width: 200%;
+    } */
+    /* .colla{
+        gap: 100px;
+    } */
+
+
+   
+
+
+}
+
+.frontpage{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    background-color: burlywood;
+}
+.frontimg {
+    width: 406px;
+    height: 500px;
+}
+
+.colla{
+    gap: 300px;
+}
+.collaitem{
+    padding-top: 20px;
+}
+.collaimg{
+ padding: 10;
+}
